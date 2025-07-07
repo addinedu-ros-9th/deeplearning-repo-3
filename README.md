@@ -5,7 +5,7 @@
 ---
 
 ## 시연 영상
-[img](link)
+![img](link)
 
 ---
 
@@ -26,14 +26,14 @@
 3. [Team Information](#team-information)  
 4. [Development Environment](#development-environment)  
 5. [Design](#design)  
-    - [User Requirements](#user-requirements)  
-    - [System Requirements](#system-requirements)  
-    - [System Architecture](#system-architecture)  
-    - [Interface Specification](#interface-specification)  
-    - [Data Structure](#data-structure)  
-    - [Scenario](#scenario)  
-    - [GUI Configuration](#gui-configuration)  
-    - [Test Case](#test-case)  
+    5.1. [User Requirements](#user-requirements)  
+    5.2. [System Requirements](#system-requirements)  
+    5.3. [System Architecture](#system-architecture)  
+    5.4. [Interface Specification](#interface-specification)  
+    5.5 [Data Structure](#data-structure)  
+    5.6 [Scenario](#scenario)  
+    5.7. [GUI Configuration](#gui-configuration)  
+    5.8. [Test Case](#test-case)  
 6. [Limitations](#limitations)  
 7. [Conclusion and Future Works](#conclusion-and-future-works)
 
