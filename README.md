@@ -74,7 +74,7 @@
 6. **데이터 기반 주행 기록 관리 시스템**  
    - 주행 중 감지된 객체, 수행된 동작, 운전 회차 등의 로그를 **데이터베이스에 기록**  
    - 향후 주행 이력 분석, 모델 개선, 시나리오 기반 테스트 등에 활용 가능
-   - 
+     
 ---
 
 ## 3.Team Information
@@ -133,19 +133,22 @@
 | 경고 기능       | SR_14   | 청각적 경고 기능    | 주의 객체 탐지 시 경고음 또는 음성 메시지로 운전자에게 청각적 경고 제공                         | L |
 
 ### 5.3.System Architecture
-![img](link)
+#### Hardware Architecture
+![hardware_architecture](https://github.com/addinedu-ros-9th/deeplearning-repo-3/blob/main/images/hardware_architecture.png)
+#### Software Architecture
+![software_architecture](https://github.com/addinedu-ros-9th/deeplearning-repo-3/blob/main/images/software_architecture.png)
 
 ### 5.4.System Scenario
 #### 신호등 보면서 직진 또는 정지
-![img](link)
+![scenario1](https://github.com/addinedu-ros-9th/deeplearning-repo-3/blob/main/images/scenario1.png)
 #### 도로 표지판 감지
-![img](link)
+![scenario2](https://github.com/addinedu-ros-9th/deeplearning-repo-3/blob/main/images/scenario2.png)
 #### 차선 변경
-![img](link)
+![scenario3](https://github.com/addinedu-ros-9th/deeplearning-repo-3/blob/main/images/scenario3.png)
 #### 교차로에서 좌회전
-![img](link)
+![scenario4](https://github.com/addinedu-ros-9th/deeplearning-repo-3/blob/main/images/scenario4.png)
 #### 장애물(사람,차) 감지
-![img](link)
+![scenario5](https://github.com/addinedu-ros-9th/deeplearning-repo-3/blob/main/images/scenario5.png)
 
 ### 5.5.Interface Specification
 #### COVAv2 Controller -> COVAv2 Lane/Object Server
@@ -170,10 +173,10 @@
 | OB_1  | COVAv2 Object Server   | COVAv2 Controller   | TCP  | length of JSON file  | Frame UUID   | `{"id": int, "name": str, "confidence": float, "bbox": [x1, y1, x2, y2]}`                                           | 객체 인식 결과 전송          |
 
 ### 5.6.Data Structure
-![img](link)
+![data_structure](https://github.com/addinedu-ros-9th/deeplearning-repo-3/blob/main/images/data_structure.png)
 
 ### 5.7.GUI Configuration
-![img](link)
+![gui_configuration](https://github.com/addinedu-ros-9th/deeplearning-repo-3/blob/main/images/gui_configuration.png)
 
 ### 5.8.Test Case
 
