@@ -1,0 +1,59 @@
+/* dark_style_updated.css */
+QDialog {
+    background-color: #121212;
+    color: #f5f5f5;
+    font-family: "Segoe UI", "Noto Sans", sans-serif;
+}
+
+QLabel#label_4 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #00d6ff;
+    border: 2px solid #00d6ff;
+    border-radius: 16px;
+    background-color: #1c1c1c;
+    padding: 12px;
+}
+
+QLabel {
+    font-size: 17px;
+    color: #e0e0e0;
+}
+
+QGroupBox {
+    background-color: #202020;
+    border: 2px solid #444;
+    border-radius: 12px;
+    margin-top: 16px;
+    padding: 12px;
+}
+
+QPushButton {
+    background-color: #1e88e5;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 12px 24px;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #1565c0;
+}
+
+QPushButton:pressed {
+    background-color: #0d47a1;
+}
+
+QLabel[data-role="warning"] {
+    font-size: 20px;
+    color: #ff3b30;
+    font-weight: bold;
+}
+
+QLabel[data-role="speed"] {
+    font-size: 28px;
+    color: #00e676;
+    font-weight: bold;
+}
