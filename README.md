@@ -4,8 +4,7 @@
 
 ---
 
-## 시연 영상
-![img](https://youtu.be/y2GF0t9XZx4)
+## 시연 영상[![img](https://github.com/addinedu-ros-9th/deeplearning-repo-3/raw/main/images/thumbnail.png)](https://youtu.be/y2GF0t9XZx4)
 
 ---
 
